@@ -24,7 +24,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Aniruddha
+ * @author josephjoshiaerrolla
  */
 public class ProcessOrder extends javax.swing.JPanel {
 
@@ -242,7 +242,7 @@ public class ProcessOrder extends javax.swing.JPanel {
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel2.setText("Prepare Order");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, 170, 30));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 550, -1));
 
         jLabel8.setText("Product");
         add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, -1, 20));
@@ -381,7 +381,7 @@ public class ProcessOrder extends javax.swing.JPanel {
 
         jLabel14.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
         jLabel14.setText("*View recommendation before adding to cart");
-        add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 260, -1, -1));
+        add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 260, -1, -1));
 
         btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
