@@ -5,10 +5,9 @@
  */
 package model.CustomerManagement;
 
-import java.util.ArrayList;
-
 import model.Business.Business;
 import model.Personnel.Person;
+import java.util.ArrayList;
 
 /**
  *
@@ -43,14 +42,6 @@ public class CustomerDirectory {
         }
             return null; //not found after going through the whole list
          }
-        public CustomersReport generatCustomerPerformanceReport(){
-        CustomersReport customersreport = new CustomersReport();
-    
-        for(CustomerProfile cp: customerlist){
-            
-            CustomerSummary cs = new CustomerSummary(cp);
-            customersreport.addCustomerSummary(cs);
-        }
-        return customersreport; 
-    } 
+
+
 }

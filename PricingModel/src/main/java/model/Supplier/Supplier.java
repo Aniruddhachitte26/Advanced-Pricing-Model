@@ -6,7 +6,6 @@
 package model.Supplier;
 
 import java.util.ArrayList;
-
 import model.ProductManagement.ProductCatalog;
 import model.ProductManagement.ProductSummary;
 import model.ProductManagement.ProductsReport;

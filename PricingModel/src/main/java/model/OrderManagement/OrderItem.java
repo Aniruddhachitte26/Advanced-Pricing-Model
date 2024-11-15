@@ -12,8 +12,7 @@ import model.ProductManagement.Product;
  * @author kal bugrara
  */
 public class OrderItem {
-
-    Product selectedproduct;
+    Product selectedproduct;   
     int actualPrice;
     int quantity;
 

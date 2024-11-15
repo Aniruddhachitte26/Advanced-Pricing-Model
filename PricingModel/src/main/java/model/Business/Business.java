@@ -5,18 +5,17 @@
  */
 package model.Business;
 
+import model.MarketModel.ChannelCatalog;
 import java.util.ArrayList;
-
-import model.CustomerManagement.ChannelCatalog;
 import model.CustomerManagement.CustomerDirectory;
-import model.CustomerManagement.MarketCatalog;
-import model.MarketingManagement.MarketingPersonDirectory;
+import model.MarketModel.MarketCatalog;
+import model.MarketModel.MarketChannelComboCatalog;
 import model.OrderManagement.MasterOrderList;
-import model.Personnel.EmployeeDirectory;
 import model.Personnel.PersonDirectory;
 import model.ProductManagement.ProductSummary;
 import model.ProductManagement.ProductsReport;
-import model.ProductManagement.SolutionOfferCatalog;
+import model.MarketModel.SolutionOfferCatalog;
+import model.SolutionOrders.MasterSolutionOrderList;
 import model.SalesManagement.SalesPersonDirectory;
 import model.Supplier.Supplier;
 import model.Supplier.SupplierDirectory;
@@ -29,33 +28,48 @@ import model.UserAccountManagement.UserAccountDirectory;
 public class Business {
 
     String name;
-    PersonDirectory persondirectory;
+    PersonDirectory persondirectory; //all people profiles regardless of the role
     MasterOrderList masterorderlist;
     CustomerDirectory customers;
     SupplierDirectory suppliers;
     MarketCatalog marketcatalog;
     ChannelCatalog channelcatalog;
+    MarketChannelComboCatalog marketChannelComboCatalog;
     SolutionOfferCatalog solutionoffercatalog;
     CustomerDirectory customerdirectory;
-    EmployeeDirectory employeedirectory;
+    // EmployeeDirectory employeedirectory;
     SalesPersonDirectory salespersondirectory;
     UserAccountDirectory useraccountdirectory;
-    MarketingPersonDirectory marketingpersondirectory;
+    MasterSolutionOrderList mastersolutionorderlist;
+
 
     public Business(String n) {
         name = n;
         masterorderlist = new MasterOrderList();
         suppliers = new SupplierDirectory();
-//        solutionoffercatalog = new SolutionOfferCatalog();
+
         persondirectory = new PersonDirectory();
         customerdirectory = new CustomerDirectory(this);
         salespersondirectory = new SalesPersonDirectory(this);
         useraccountdirectory = new UserAccountDirectory();
-        marketingpersondirectory = new MarketingPersonDirectory(this);
-        employeedirectory = new EmployeeDirectory(this);
+  
+
+        marketcatalog = new MarketCatalog();
+
+        channelcatalog = new ChannelCatalog();
+
+//        Channel c = channelcatalog.newChannel("tv");
+//        market.addValidChannel(c);
+//        c = channelcatalog.newChannel("");
+
+        marketChannelComboCatalog = new MarketChannelComboCatalog();
+//        MarketChannelAssignment mca2 = marketChannelComboCatalog.newMarketChannelCombo(market, c);
+
+        solutionoffercatalog = new SolutionOfferCatalog();
+        mastersolutionorderlist  = new MasterSolutionOrderList();
 
     }
-
+  
     public int getSalesVolume() {
         return masterorderlist.getSalesVolume();
 
@@ -68,9 +82,8 @@ public class Business {
     public UserAccountDirectory getUserAccountDirectory() {
         return useraccountdirectory;
     }
-    public MarketingPersonDirectory getMarketingPersonDirectory() {
-        return marketingpersondirectory;
-    }
+
+
 
     public SupplierDirectory getSupplierDirectory() {
         return suppliers;
@@ -109,8 +122,24 @@ public class Business {
     public MasterOrderList getMasterOrderList() {
         return masterorderlist;
     }
-        public EmployeeDirectory getEmployeeDirectory() {
-        return employeedirectory;
+
+    public MarketCatalog getMarketCatalog() {
+        return marketcatalog;
     }
+
+    public ChannelCatalog getChannelCatalog() {
+        return channelcatalog;
+    }
+    public SolutionOfferCatalog getSolutionOfferCatalog(){
+        return solutionoffercatalog;
+    }
+    public MarketChannelComboCatalog getMarketChannelComboCatalog() {
+
+        return marketChannelComboCatalog;
+    }
+    public MasterSolutionOrderList getMasterSolutionOrderList(){
+        return mastersolutionorderlist;
+    }
+
 
 }

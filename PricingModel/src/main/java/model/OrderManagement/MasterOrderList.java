@@ -6,9 +6,7 @@
 package model.OrderManagement;
 
 import java.util.ArrayList;
-
 import model.CustomerManagement.CustomerProfile;
-import model.MarketingManagement.MarketingPersonProfile;
 import model.SalesManagement.SalesPersonProfile;
 
 /**
