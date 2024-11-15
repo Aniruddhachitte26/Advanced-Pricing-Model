@@ -5,9 +5,8 @@
  */
 package model.UserAccountManagement;
 
+import model.Personnel.Profile;
 import java.util.ArrayList;
-
-import model.Personnel.*;
 
 /**
  *

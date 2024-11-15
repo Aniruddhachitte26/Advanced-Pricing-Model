@@ -6,7 +6,6 @@
 package model.ProductManagement;
 
 import java.util.ArrayList;
-
 import model.OrderManagement.OrderItem;
 
 /**
@@ -25,6 +24,7 @@ public class Product {
         ceilingPrice = cp;
         targetPrice = tp;
         orderitems = new ArrayList();
+        
     }
     public Product(String n, int fp, int cp, int tp) {
         name = n;

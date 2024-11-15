@@ -6,7 +6,6 @@
 package model.SalesManagement;
 
 import java.util.ArrayList;
-
 import model.OrderManagement.Order;
 import model.Personnel.Person;
 import model.Personnel.Profile;
@@ -25,6 +24,10 @@ public class SalesPersonProfile extends Profile {
         salesorders = new ArrayList();
 
     }
+    
+    public ArrayList<Order> getSalesOrders() {
+    return this.salesorders;
+}
     public void addSalesOrder(Order o){
         salesorders.add(o);
     }

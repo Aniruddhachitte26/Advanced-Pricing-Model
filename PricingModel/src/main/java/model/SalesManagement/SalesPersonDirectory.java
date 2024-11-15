@@ -5,9 +5,8 @@
  */
 package model.SalesManagement;
 
-import java.util.ArrayList;
-
 import model.Business.Business;
+import java.util.ArrayList;
 import model.Personnel.Person;
 
 /**

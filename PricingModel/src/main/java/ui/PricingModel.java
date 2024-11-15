@@ -10,7 +10,7 @@ import model.Business.ConfigureABusiness;
 
 /**
  *
- * @author Aniruddha
+ * @author Kal bugrara
  */
 public class PricingModel {
 

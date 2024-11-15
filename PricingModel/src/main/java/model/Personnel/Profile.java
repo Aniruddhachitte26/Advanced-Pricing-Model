@@ -5,8 +5,6 @@
  */
 package model.Personnel;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author kal bugrara
