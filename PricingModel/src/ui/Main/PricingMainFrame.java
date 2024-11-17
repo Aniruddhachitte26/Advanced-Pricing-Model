@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author josephjoshiaerrolla
+ * @author Samruddhi
  */
 public class PricingMainFrame extends javax.swing.JFrame {
 
@@ -60,10 +60,10 @@ public class PricingMainFrame extends javax.swing.JFrame {
                 LoginButtonActionPerformed(evt);
             }
         });
-        actionsidejpanel.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, 70, 30));
+        actionsidejpanel.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, 120, 30));
 
         jLabel1.setText("User Name");
-        actionsidejpanel.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, -1, -1));
+        actionsidejpanel.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, 120, -1));
 
         UserNameTextField.setText("sales");
         UserNameTextField.addActionListener(new java.awt.event.ActionListener() {
@@ -71,7 +71,7 @@ public class PricingMainFrame extends javax.swing.JFrame {
                 UserNameTextFieldActionPerformed(evt);
             }
         });
-        actionsidejpanel.add(UserNameTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, -1));
+        actionsidejpanel.add(UserNameTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 130, -1));
 
         PasswordTextField.setText("XXXX");
         PasswordTextField.addActionListener(new java.awt.event.ActionListener() {

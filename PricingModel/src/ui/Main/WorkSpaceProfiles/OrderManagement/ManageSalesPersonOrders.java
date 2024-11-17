@@ -11,7 +11,7 @@ import model.SalesManagement.SalesPersonProfile;
 
 /**
  *
- * @author diviyabarathwaaj
+ * @author Aniruddha
  */
 public class ManageSalesPersonOrders extends javax.swing.JPanel {
 

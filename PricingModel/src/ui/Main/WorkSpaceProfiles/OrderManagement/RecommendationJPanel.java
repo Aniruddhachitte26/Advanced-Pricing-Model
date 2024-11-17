@@ -11,7 +11,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author manikanta
+ * @author Aniruddha
  */
 public class RecommendationJPanel extends javax.swing.JPanel {
 
