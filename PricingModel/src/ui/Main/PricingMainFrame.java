@@ -51,7 +51,7 @@ public class PricingMainFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        actionsidejpanel.setBackground(new java.awt.Color(204, 255, 204));
+        actionsidejpanel.setBackground(new java.awt.Color(204, 255, 255));
         actionsidejpanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setText("Login");
@@ -89,6 +89,7 @@ public class PricingMainFrame extends javax.swing.JFrame {
         CardSequencePanel.setBackground(new java.awt.Color(255, 204, 204));
         CardSequencePanel.setLayout(new java.awt.CardLayout());
 
+        jLabel3.setBackground(new java.awt.Color(204, 102, 255));
         jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("Pricing Model Simulation");
