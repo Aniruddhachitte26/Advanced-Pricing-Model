@@ -238,14 +238,14 @@ public class ProcessOrder extends javax.swing.JPanel {
 
         jScrollPane2.setViewportView(jScrollPane1);
 
-        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, 600, 110));
+        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, 590, 130));
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel2.setText("Prepare Order");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 550, -1));
 
         jLabel8.setText("Product");
-        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, -1, 20));
+        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, 20));
 
         OrderItemsTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -275,7 +275,7 @@ public class ProcessOrder extends javax.swing.JPanel {
 
         jScrollPane3.setViewportView(jScrollPane4);
 
-        add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, 600, 100));
+        add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, 590, 110));
 
         jLabel9.setText("Order Items / Cart");
         add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, -1, 20));
@@ -344,7 +344,7 @@ public class ProcessOrder extends javax.swing.JPanel {
         });
         jPanel1.add(productNameTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, 150, -1));
 
-        add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 400, 600, 170));
+        add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 410, 600, 170));
         jPanel1.getAccessibleContext().setAccessibleName("Business -wide Product Intelligence");
 
         jLabel12.setText("Actual Price");
@@ -381,7 +381,7 @@ public class ProcessOrder extends javax.swing.JPanel {
 
         jLabel14.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
         jLabel14.setText("*View recommendation before adding to cart");
-        add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 260, -1, -1));
+        add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 270, -1, -1));
 
         btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {

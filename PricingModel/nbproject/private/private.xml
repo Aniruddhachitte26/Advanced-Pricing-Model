@@ -3,22 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/aniru/Desktop/1/Monday_Group_41_GroupAssignment/PricingModel/src/ui/Main/PricingMainFrame.java</file>
-            <file>file:/C:/Users/aniru/Desktop/1/Monday_Group_41_GroupAssignment/PricingModel/src/model/CustomerManagement/CustomerProfile.java</file>
-            <file>file:/C:/Users/aniru/Desktop/1/Monday_Group_41_GroupAssignment/PricingModel/src/model/MarketModel/Channel.java</file>
-            <file>file:/C:/Users/aniru/Desktop/1/Monday_Group_41_GroupAssignment/PricingModel/src/ui/Main/WorkSpaceProfiles/OrderManagement/ManageSalesPersonOrders.java</file>
-            <file>file:/C:/Users/aniru/Desktop/1/Monday_Group_41_GroupAssignment/PricingModel/src/model/MarketModel/Market.java</file>
-            <file>file:/C:/Users/aniru/Desktop/1/Monday_Group_41_GroupAssignment/PricingModel/src/model/UserAccountManagement/UserAccount.java</file>
-            <file>file:/C:/Users/aniru/Desktop/1/Monday_Group_41_GroupAssignment/PricingModel/src/model/MarketModel/ChannelCatalog.java</file>
-            <file>file:/C:/Users/aniru/Desktop/1/Monday_Group_41_GroupAssignment/PricingModel/src/model/MarketModel/MarketChannelAssignment.java</file>
-            <file>file:/C:/Users/aniru/Desktop/1/Monday_Group_41_GroupAssignment/PricingModel/src/model/MarketModel/SolutionOfferCatalog.java</file>
-            <file>file:/C:/Users/aniru/Desktop/1/Monday_Group_41_GroupAssignment/PricingModel/src/ui/Main/WorkSpaceProfiles/OrderManagement/RecommendationJPanel.java</file>
-            <file>file:/C:/Users/aniru/Desktop/1/Monday_Group_41_GroupAssignment/PricingModel/src/uil/Main/WorkSpaceProfiles/SalesPersonWorkAreaJPanel.java</file>
-            <file>file:/C:/Users/aniru/Desktop/1/Monday_Group_41_GroupAssignment/PricingModel/src/model/CustomerManagement/CustomerDirectory.java</file>
-            <file>file:/C:/Users/aniru/Desktop/1/Monday_Group_41_GroupAssignment/PricingModel/src/model/MarketModel/MarketCatalog.java</file>
-            <file>file:/C:/Users/aniru/Desktop/1/Monday_Group_41_GroupAssignment/PricingModel/src/model/MarketModel/MarketChannelComboCatalog.java</file>
-            <file>file:/C:/Users/aniru/Desktop/1/Monday_Group_41_GroupAssignment/PricingModel/src/model/MarketModel/SolutionOffer.java</file>
-            <file>file:/C:/Users/aniru/Desktop/1/Monday_Group_41_GroupAssignment/PricingModel/src/ui/Main/WorkSpaceProfiles/OrderManagement/ProcessOrder.java</file>
+            <file>file:/C:/Users/Sameer/Desktop/New%20folder/Monday_Group_41_GroupAssignment/PricingModel/src/ui/Main/ConfigureABusiness.java</file>
+            <file>file:/C:/Users/Sameer/Desktop/New%20folder/Monday_Group_41_GroupAssignment/PricingModel/src/ui/Main/WorkSpaceProfiles/OrderManagement/RecommendationJPanel.java</file>
+            <file>file:/C:/Users/Sameer/Desktop/New%20folder/Monday_Group_41_GroupAssignment/PricingModel/src/ui/Main/WorkSpaceProfiles/OrderManagement/ManageSalesPersonOrders.java</file>
+            <file>file:/C:/Users/Sameer/Desktop/New%20folder/Monday_Group_41_GroupAssignment/PricingModel/src/uil/Main/WorkSpaceProfiles/SalesPersonWorkAreaJPanel.java</file>
+            <file>file:/C:/Users/Sameer/Desktop/New%20folder/Monday_Group_41_GroupAssignment/PricingModel/src/ui/Main/PricingMainFrame.java</file>
+            <file>file:/C:/Users/Sameer/Desktop/New%20folder/Monday_Group_41_GroupAssignment/PricingModel/src/ui/Main/WorkSpaceProfiles/OrderManagement/ProcessOrder.java</file>
         </group>
     </open-files>
 </project-private>
